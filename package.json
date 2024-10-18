@@ -1,0 +1,20 @@
+{
+  "name": "sms-hub",
+  "version": "1.0.0",
+  "description": "Sends and Receives SMS messages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasan Rahimi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "winston": "^3.15.0"
+  }
+}

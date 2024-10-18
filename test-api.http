@@ -1,0 +1,10 @@
+### Test POST request
+POST http://localhost:3000/mo
+Content-Type: application/json
+
+{
+    "src": "09122146311",
+    "dst": "6312",
+    "message": "Hello",
+    "createAt": "2021-09-21T00:00:00.000Z"
+}
